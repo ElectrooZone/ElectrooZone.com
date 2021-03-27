@@ -1,0 +1,160 @@
+.heading1{
+  color: #EFC862;
+  margin-left: 550px;
+  font-size: 23px;
+  letter-spacing: 1px;
+  overflow: visible;
+}
+
+.intro{
+    display: inline-block;
+    width: auto;
+    padding-left: 15px;
+    margin-left: 343px;
+    margin-top: 30px;
+    color: white;
+    text-align: justify;
+    font-size: 19px;
+    font-weight: normal;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    font-family: 'Lora', serif;
+    
+}  
+.fig1{
+    position: absolute;
+    padding-left: 10px;
+    margin-top: 0px;
+    display: inline-flex;
+}
+.heading2_div{
+    margin-left: 343px;    
+    display: inline-block;
+    margin-top: 30px;
+    color: #EFC862;
+    overflow: visible;
+}
+.heading2{
+  
+    text-decoration: none;
+    font-size: 23px;
+    letter-spacing: 1px;
+    
+}
+.about_diagram{
+    margin-top: 30px;
+    position: absolute;
+    display: inline-block;
+    color: white;
+    font-size: 19px;
+    font-weight: normal;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    font-family: 'Lora', serif;
+    
+}
+.heading3_div{
+    display: inline-block;
+    position: absolute;  
+    margin-left: 702px;
+    margin-top: 100px;
+}
+.heading3{
+    color: #EFC862;      
+    text-decoration: none;
+    font-size: 23px;
+    letter-spacing: 1px;    
+    
+}
+.block_diagram_image{
+    position: absolute;
+    width: 70%;    
+    height: 200px;
+    display: inline-block;
+    margin-top: 170px;
+    margin-left: 343px;
+}
+.block_image{
+    padding-left: 50px;
+}
+.bolck_diagram_working{
+    position: absolute;
+    display: inline-flex;
+    margin-top: 370px;
+    margin-left: 343px;
+}
+.heading4{
+    text-decoration: none;
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: #EFC862;   
+    
+}
+.working{
+    position: absolute;
+    display: inline-flex;
+    margin-top: 400px;
+    margin-left: 343px;
+    color: white;
+    font-size: 19px;
+    font-weight: normal;
+    font-weight: 100;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+    font-family: 'Lora', serif;
+}
+
+/*-----------------------------------------------------------------------------*/
+.previous_button{
+    margin-top: 680px;
+    margin-left: 700px;
+    border-radius: 10px;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+    overflow: visible;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .previous_button{
+    background-color: #313132; 
+    color: #EFC862; 
+    border: 5px solid #EFC862;
+  }
+  
+  .previous_button:hover {
+    background-color: #27DEBF;
+    border: 5px solid black;
+    color: black;
+  }
+
+  /*----------------------------------------------------------------------------------------*/
+
+  .next_button{
+    margin-top: 680px;
+    margin-left: 100px;
+    border-radius: 10px;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+    overflow: visible;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .next_button{
+    background-color: #313132; 
+    color: #EFC862; 
+    border: 5px solid #EFC862;
+  }
+  
+  .next_button:hover {
+    background-color: #27DEBF;
+    border: 5px solid black;
+    color: black;
+  }
