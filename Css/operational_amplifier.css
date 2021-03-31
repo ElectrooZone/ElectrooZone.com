@@ -1,3 +1,39 @@
+.sub_topics_operational_amplifier{
+  text-decoration: none;
+
+     left: 20px;
+     top: 310px;
+     position: absolute;
+     overflow: visible;
+     white-space: nowrap;
+     line-height: 25px;
+     margin-top: -2.5px;
+     text-align: left;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 18px;
+     color:white;
+     letter-spacing: 0.5px;
+}
+
+.OA_operational_amplifier{
+  text-decoration: none;
+
+  left: 20px;
+  top: 335px;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  line-height: 25px;
+  margin-top: -2.5px;
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #EFC862;
+  letter-spacing: 0.5px;
+}
+
 .heading1{
   color: #EFC862;
   margin-left: 550px;
