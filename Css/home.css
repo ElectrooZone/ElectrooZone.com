@@ -1,18 +1,130 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#home-page{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border:2px solid red; */
+    margin-left: 15px;
 }
-section{
-    width: 100%;
-    height: 100vh;
-    color: #fff;
-    background: linear-gradient(
-        133.4deg
-        , rgba(49,49,50,1) 0%, rgba(48,48,49,1) 2.45%, rgba(48,48,49,1) 2.45%, rgba(48,48,49,1) 2.76%, rgba(22,22,24,1) 100%, rgba(22,22,24,1) 100%, rgba(22,22,24,1) 100%);
+
+
+.content{
+    
+    /* border:2px solid blue; */
+    display: inline;
+    height: 10%;
+    margin-top: 70px;
+}
+
+.image{
+    
+    /* border:2px solid green; */
+    display: inline;
+    width: 40%;
+    margin-left: 100px;
+    overflow: visible;
+    
+}
+.box{
+    
+    /* border:2px solid greenyellow; */
+    /* flex-wrap: wrap; */
+    display: flex;
+    /* flex: 1; */ 
+    /* width: 96%; */
+   font-size: 3rem;
+   color: #EFC862;
+   margin-top:10px ;
+   padding-top: 20px;
+   padding-left: 35px;
+   padding-bottom: 20px;
+   overflow: visible;
+}
+.description{
+    display: inline;
+    padding-left: 0px;
+    font-size: 2rem;
+    color: white;   
+    text-align: justify;
+    letter-spacing: 1px;
+    font-family: 'Lora', serif;
+}
+
+/*    content 2   */
+#content-2{
+    margin:80px 80px;
+   
+}
+#box-2 img{
+     margin-left: 100px;
+}
+
+
+
+/*    content -3   */
+
+#content-3 h3{
+    text-align: center;
+}
+#box-3 img{
+    margin: 20 auto;
+}
+
+
+/* ----------------------content-4------------------------*/
+
+#box-4 img{
+    margin: 0px 120px;
+}
+#content-4  {
+    margin:80px 0px;
+}
+
+/*-----------------------------content5------------------------------*/
+
+#content-5 h3{
+    text-align: center;
+}
+#box-5 img {
+    margin :0px 100px;
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------*/
+
+
+/*-------------------------------buttons-----------------------------*/
+/* #button{
+    border: 2px solid red;
+    display: inline;
 } */
-*{
-    margin: 0;
-    padding: 0;
-    background: #313132;
-}
+.button {
+    
+    border-radius: 2rem;
+    margin: auto;
+    padding: 16px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 13%;
+    font-size: 1.6rem;
+    overflow: visible;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: #313132; 
+    color: white; 
+    border: 5px solid white;
+  }
+  
+  .button1:hover {
+    background-color: #27DEBF;
+    color: black;
+    border: 5px solid black;
+  }
+

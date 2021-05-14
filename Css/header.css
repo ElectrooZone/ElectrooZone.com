@@ -1,10 +1,26 @@
+  /* Header section here  */
+
+
+
 .header {
-    overflow: hidden;
-    padding: 20px 10px;
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red;   */
+   
+  padding: 10px 10px;
+  justify-content: space-between;
+  
+  
+  }
+
+  #left-logo{
+    position: relative;
   }
   /*------------------------------------------------------------------*/
-  .logo{
-    padding-left: 25px;
+  #left-logo img{
+    padding-left:  25px;
+   
+    width: 152px;
   }
   
   /* Style the header links */
@@ -14,7 +30,7 @@
     text-align: center;
     padding: 20px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 25px;
     letter-spacing: 1px;
   }
@@ -33,11 +49,23 @@
   
   /* Float the link section to the right */
   .header-right {
-    float: right;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    top: 25px;
+    margin-right: 100px ;
+    height: 0%;
+    
+  }
+  .header-right a{
+    font-size: 2rem;
+    
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 500px) {
+  /* @media screen and (max-width: 500px) {
     .header a {
       float: none;
       display: block;
@@ -46,11 +74,11 @@
     .header-right {
       float: none;
     }
-  }
+  } */
 
   /* -------------------------------Search bar in header-------------------------------------------*/
 
-  .dropdown {
+  /* .dropdown {
     float: left;
     overflow: hidden;
   }
@@ -98,7 +126,7 @@
   
   .dropdown:hover .dropdown-content {
     display: block;
-  }
+  } */
   
 
   

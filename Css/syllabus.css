@@ -1,0 +1,15 @@
+
+  @media screen and (max-width: 799px)
+  {
+    html {
+      font-size: 45%;
+  }
+      
+      
+    #content{
+      margin: 20px 10px 0px -10px;
+    }
+    .units{
+        margin-left: 1px;
+    }
+  }

@@ -1,110 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="Css/style.css">
+    
+    <link rel="stylesheet" href="Css/home.css">
     <link rel="stylesheet" href="Css/header.css">
-    <link rel="stylesheet" href="Css/front_page.css">
     <link rel="stylesheet" href="Css/footer.css">
-    <link rel="stylesheet" href="Css/search_box.css">
+    <link rel="stylesheet" href="Css/phone_responsiveness.css">
     <script src="https://kit.fontawesome.com/613c26716a.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-  
+    <style>
+        body {
+            margin: 0;
+            padding: 0;   
+            background: #313132;
+        }
+        html{
+            font-size: 62.5%;
+        }
+    </style>
+
+
 </head>
+
 <body>
-    <section>
-    <div class="header">
-        <img class="logo" src="images/logohd.png" height="150px" width="162px" alt="images">
-    
+    <header class="header">
+        <div id="left-logo">
+            <img src="images/logohd.png" alt="images">
+
+        </div>
         <div class="header-right">
-    <a class="active" href="home.html">Home</a>
-    <a class="s_bus" href="syllabus.html">Syllabus</a>
-    <a href="ic.html">Integrated Circuits</a>
-    <a href="dsp.html">Digital Signal Processing</a>   
-    <a href="vlsi.html">VLSI</a>   
-    <a href="#">Login/SignUp</a>
-    <div class="search-box">
-        <input class="search-txt" type="text" name="" placeholder="Type to search">
-        <a class="search-btn" href="#">
-            <i class="fas fa-search"></i>
-        </a>
-    </div>
-   </div>
-   </div>
-  
-    <div class="question_mark">
-    <h2>Unable to understand how to study?</h1> 
-        <span class="description1">This website provides you accurate content.
-            That are "point-to-point" <br> as per your Examination point of view. 
-            Everything at one place.
-        </span>
-    <div class="images">
-    <img class="question_mark_image" src="images/Group 74@2x.png"  width="440px" alt="image">
-    </div>
-    </div>
-    
-    
- 
-    <div >
-        <img class="easy_flow_image" src="images/Group 99@2x.png" width="440px" alt="image">
-        <h2 class="easy_flow">Easy Flow of Website...and Surf Smoothly</h2>
-        <span class="description2"> 
-            Our website is designed in such a way that the user feels good to surf on this. 
-           
-        </span>
-    </div>
-    
-    <hr class="line2">
 
-    <div class="ok_concept">
-        <h2 class="ok_concept_heading">Clear Your Concepts Easily,  Anytime...Anywhere</h1> 
-            <span class="description3">This website provides you accurate content.
-                That are "point-to-point" <br>as per your Examination point of view. 
-                Everything at one place.
-            </span>
-        <div class="images">
-        <img class="ok_concept_image" src="images/Group 98@2x.png"  width="440px" alt="image">
+            <a class="active" href="home.html">Home</a>
+            <a class="s_bus" href="syllabus.html">Syllabus</a>
+            <a href="ic.html">Integrated Circuits</a>
+            <a href="ic_unit_3.html">IC-Unit 3</a>
+            <a href="ic_unit_4.html">IC-Unit 4</a>
+
+            <!-- <div class="search-box">
+                    <input class="search-txt" type="text" name="" placeholder="Type to search">
+                    <a class="search-btn" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div> -->
         </div>
+    </header>
+
+    <section id="home-page">
+        <div id="box-1" class="box">
+            <div id="content-1" class="content">
+                <h2>Unable to understand how to study?</h1>
+                    <p class="description">This website provides you accurate content.
+                        That are "point-to-point" <br> as per your Examination point of view.
+                        Everything at one place.
+                    </p>
+            </div>
+            <img class="image" src="images/Group 74@2x.png" alt="image">
+
         </div>
+        <br>
 
-           
 
-        <div >
-            <img class="easy_flow_image" src="images/Group 238@2x.png" width="440px" alt="image">
-            <h2 class="easy_flow">Late Night Study Will Abolutly works Fine... </h2>
-            <span class="description2"> 
-                Even studying at the last day of exams will clear concepts."Score well" 
-               
-            </span>
+        <!-- content 2  -->
+        <div id="box-2" class="box">
+            <!-- <div id="image-2" style="margin-left: -50px;" class="images"> -->
+            <img class="image" src="images/Group 99@2x.png" alt="image">
+
+            <div id="content-2" class="content">
+                <h3>Easy Flow of Website...and Surf Smoothly</h3>
+                <p class="description"> Our website is designed in such a way that the user feels good to surf on this.
+                </p>
+            </div>
         </div>
+        <br>
 
-        
-        <hr class="line2">
+        <!-- content -3  -->
 
-    <div class="ok_concept">
-        <h2 class="ok_concept_heading">Clear Your Concepts Easily,  Anytime...Anywhere</h1> 
-            <span class="description3">This website provides you accurate content.
-                That are "point-to-point" <br>as per your Examination point of view. 
-                Everything at one place.
-            </span>
-        <div class="images">
-        <img class="ok_concept_image" src="images/Group 286@2x.png"  width="440px" alt="image">
+        <div id="box-3" class="box">
+            <div id="content-3" class="content">
+                <h3>Clear Your Concepts Easily, Anytime...Anywhere</h3>
+                <p class="description"> Clear your concepts with the detailed explanation of contents and explore new
+                    things.
+                </p>
+            </div>
+            <!-- <div id="image-3" class="images"> -->
+            <img class="image" src="images/Group 98@2x.png" alt="image">
+
         </div>
-        </div>
-     <br>
-     <br>
-     <br>
-     <button class="button button1">Lets Get Started</button>
-     <br>
-     <br>
-     <br>
+        <br>
 
-       
-       <footer>
+        <!-- conten-4   -->
+
+        <div id="box-4" class="box">
+            <!-- <div id="image-2" style="margin-left: -50px;" class="images"> -->
+            <img class="image" src="images/Group 238@2x.png" alt="image">
+
+            <div id="content-4" class="content">
+                <h3>Late Night Study Will Abolutly works Fine...</h3>
+                <p class="description"> Even studying at the last day of exams will clear concepts."Score well".
+                </p>
+            </div>
+        </div>
+        <br>
+
+        <!-- content-5  -->
+
+        <div id="box-5" class="box">
+            <div id="content-5" class="content">
+                <h3>Rise your score high...</h3>
+                <p class="description">Contents are designed in such a way that it is easily readable as well as
+                    understandable.
+                </p>
+            </div>
+            <img class="image" src="images/rise.png" alt="image">
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <button class="button button1">Lets Get Started</button>
+        <br>
+        <br>
+        <br>
+
+    </section>
+
+    <footer>
         <a href="#">FAQ</a>
         <a href="#">Contact Us</a>
         <a href="#">Terms of Use</a>
@@ -112,7 +138,7 @@
         <a href="#">Refund Policy</a>
         <a href="#">&copy; 2021 | SS10 Corporation</a>
     </footer>
- 
-</body>
-</html>
 
+</body>
+
+</html>

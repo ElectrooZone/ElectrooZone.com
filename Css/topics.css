@@ -1,6 +1,130 @@
+#topic-ic{
+  margin: 40px -20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 30%;
+  max-height: 1000px;
+  border-top : 4px solid white;
+  border-right : 4px solid white;
+  border-bottom : 4px solid white;
+  margin-bottom: 20px;
+  /* border: 2px solid red; */
+}
+
+.subject-topics span  {
+    color: #EFC862;
+    font-size: 2.0rem ;
+
+}
+#operational-base-circuit {
+  font-size: 2.0rem;
+  margin: 0px -20px;
+}
+.heading-topic{
+  margin-left: 5px;
+}
+
+
+.items , .subject-topics {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 1.8rem;
+  margin: 0;
+  height:  1000px;
+  /* border: 2px solid green; */
+  
+}
+.items a{
+  text-decoration: none;
+  color: white;
+  margin: 0px 5px;
+  cursor: pointer;
+  /* border: 2px solid yellowgreen; */
+  
+}
+input{
+  visibility: hidden;
+}
+
+
+
+
+
+/*---------------------------------------------mediaquery for topics--------------*/
+ @media screen and (max-width: 799px) 
+ {
+
+  
+  #topic-ic{
+    height: 1000px;
+    position:absolute;
+    left: 5px;
+    top: 206px;
+    /* width: 250px; */
+    /* margin-top: 60px; */
+    background: #1f3c3c;
+    transform: translateX(-102%);
+    transition: transform 1s ease-in-out;
+}
+
+/* #opensidebarMenu:checked ~ #slidebarMenu{
+   
+
+} */
+#openSidebarMenu:checked ~ #topic-ic{
+    transform: translateX(0px);
+}
+
+.sidebarIconToggle{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    z-index: 20;
+    top: 150px;
+    left: 50px;
+    cursor: pointer;
+}
+.spinner{
+    height: 3px ;
+    background: #ffff;
+    transition: all 1s;
+}
+.spinner .top , .middle , .bottom{
+    margin-top: 3px;
+
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.middle{
+    opacity: 0;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.top{
+    transform: rotate(135deg);
+    
+    margin-top: 8px;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.bottom{
+    transform: rotate(-135deg) ;  
+    margin-top: -8px;
+}
+ }
+ @media screen and (max-width:468px)
+ {
+      #topic-ic 
+      {
+       width: 54%;
+       margin-top: 104px;
+      }
+ }
+
+
+
+
 /*------------------------------------------------------------------------------*/
   
-.topic{
+/* .topic{
     white-space: nowrap;
     padding-left: 85px;
     padding-top: 25px;
@@ -10,29 +134,29 @@
     color: rgba(242,241,241,1);
     letter-spacing: 0.5px;
     text-transform: capitalize;
-  }
+  } */
 
   /*---------------------------------vertical line--------------------------------------*/
-  .v1{
+  /* .v1{
     border-left: 1.60px solid grey;
     height: 1010px;
     position: absolute;
     left: 20%;
     top: 0;
 
-  }
+  } */
  
   /*----------------------------------horizontal line------------------------------------*/
-  .h1{
+  /* .h1{
     width: 20%;
     border: 1px solid grey;
     
     position: absolute;
     left: 0%;
     top: 35%;
-  }
+  } */
 /*------------------------------------sub topics----------------------------------------*/
-  .sub_topics{
+  /* .sub_topics{
      text-decoration: none;
 
      left: 20px;
@@ -187,9 +311,9 @@
   font-size: 18px;
   color: white;
   letter-spacing: 0.5px;
-}
+} */
 /*----------------------------------------line 2-----------------------------------*/
-
+/* 
 .h2{
   width: 20%;
   border: 1px solid grey;
@@ -197,9 +321,9 @@
   position: absolute;
   left: 0%;
   top: 530px;
-}
+} */
 /*--------------------------------------------------------------------------------------*/
-.base_circuit{
+/* .base_circuit{
   text-decoration: none;
 
   left: 15px;
@@ -287,20 +411,20 @@
   font-size: 18px;
   color:white;
   letter-spacing: 0.1px;
-}
+} */
 /*-----------------------------------line3---------------------------------------------*/
   
-.h3{
+/* .h3{
   width: 20%;
   border: 1px solid grey;
       
   position: absolute;
   left: 0%;
   top: 690px;
-}
+} */
 
 /*--------------------------------------------------------------------------------------*/
-
+/* 
 .active_filters{
   text-decoration: none;
 
@@ -489,13 +613,13 @@
   font-size: 18px;
   color:white;
   letter-spacing: 0.5px;
-}
+} */
 
 /*------------------------------------------------------------------------------------------*/
-.h4{
+/* .h4{
   width: 20%;
   border: 1px solid grey; 
   position: absolute;
   left: 0%;
   top: 1010px;
-}
+} */

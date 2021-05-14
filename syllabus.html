@@ -1,110 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="Css/style.css">
+    
+    <link rel="stylesheet" href="Css/syllabus.css">
     <link rel="stylesheet" href="Css/header.css">
+    <link rel="stylesheet" href="Css/common_layout.css">
     <link rel="stylesheet" href="Css/topics.css">
     <link rel="stylesheet" href="Css/footer.css">
-    <link rel="stylesheet" href="Css/search_box.css">
+    <link rel="stylesheet" href="Css/phone_responsiveness.css">
     <script src="https://kit.fontawesome.com/613c26716a.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-  
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #313132;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+    </style>
+
+
 </head>
+
 <body>
-    <section>
-    <div class="header">
-        <img class="logo" src="images/logohd.png" height="150px" width="162px" alt="images">
-    
-        <div class="header-right">
-    <a class="active" href="home.html">Home</a>
-    <a class="s_bus" href="syllabus.html">Syllabus</a>
-    <a href="ic.html">Integrated Circuits</a>
-    <a href="">Digital Signal Processing</a>   
-    <a href="#VLSI">VLSI</a>   
-    <a href="#about">Login/SignUp</a>
-    <div class="search-box">
-        <input class="search-txt" type="text" name="" placeholder="Type to search">
-        <a class="search-btn" href="#">
-            <i class="fas fa-search"></i>
-        </a>
-    </div>
-   </div>
-   </div>
-   <div class="topic">
-    <span>Subjects</span>   
-    <span class="syllabus">SYLLABUS OF INTEGRATED CIRCUITS</span>   
-</div>
+    <header class="header">
+        <div id="left-logo">
+            <img src="images/logohd.png" alt="images">
 
-   <article>
-       <div>
-           <p  class="unit_one"><b  style="color:#EFC862">Unit-1 :- The 741 IC Op-Amp:</b> General operational amplifier stages (bias circuit, the input
-            stage, the second stage, the output stage, short circuit protection circuitry), device
-            parameters, DC and AC analysis of input stage, second stage and output stage, gain,
-            frequency response of 741, a simplified model, slew rate, relationship between ft
-            and slew rate.</p>
-            <br>
-            <p class="second_unit"><b style="color: #EFC862;">Unit-2 :- Linear Applications of IC Op-Amps:</b> Op-Amp based V-I and I-V converters,
-                instrumentation amplifier, generalized impedance converter, simulation of
-                inductors, Active analog filters: first and second order low pass, high pass, band
-                pass and band stop filter, all pass active filters, KHN Filters
-            </p>
-            <br>
-            <p class="unit_three"><b style="color: #EFC862;">Unit-3 :- Non-Linear Applications of IC Op-Amps:</b> Basic Log–Anti Log amplifiers using
-                diode and BJT, temperature compensated Log-Anti Log amplifiers using diode,
-                peak detectors, sample and hold circuits, Op-amp as a comparator and zero crossing
-                detector, astable multivibrator, monostable multivibrator, generation of triangular
-                waveforms, analog multipliers and their applications. 
-            </p>
-            <br>
-            <p class="unit_four"><b style="color: #EFC862;">Unit-4 :- Digital Integrated Circuit Design:</b> An overview, CMOS logic gate circuits basic
-                structure, CMOS realization of inverters, AND, OR, NAND and NOR gates, Latches
-                and Flip flops: the latch, CMOS implementation of SR flip-flops, a simpler CMOS
-                implementation of the clocked SR flip-flop, CMOS implementation of J-K flipflops, D flip- flop circuits.
-            </p>
-            <br>
-            <p class="unit_five"><b style="color: #EFC862;">Unit-5 :- D/A Converters: </b> Binary weighted resistor and R-2R ladder, A/D converters: dual
-                slope, successive approximation type and flash converter.</p>
-               
-              <p class="unit_five"> <b style="color: #EFC862;"> Integrated Circuit Timer: </b>Timer IC 555 pin and functional block diagram,
-                Monostable and Astable multivibrator using the 555 IC.
-                Phase Locked Loop (PLL): Basic principle of PLL, block diagram, working, ExOR gates and multipliers as phase detectors, applications of PLL.</p>
-           
-       </div>
-   </article>
-
-  
-   <div class="v1"></div>
-   
-   <div class="h1"></div>
-       <div class=" main_topics">
-           <a class="sub_topics" href="syllabus.html">1. Integrated Circuits</a>
-           <a class="OA" href="dsp_syllabus.html">2. Digital Signal Processing</a>
-           <a class="types" href="vlsi_syllabus.html">3. (VLSI) Very Large Scale IC </a>
-           <div class="h4"></div>   
         </div>
+        <div class="header-right">
 
-    
-       
-       <footer>
-        <a href="#">FAQ</a>
-        <a href="#">Contact Us</a>
-        <a href="#">Terms of Use</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Refund Policy</a>
-        <a href="#">&copy; 2021 | SS10 Corporation</a>
+            <a style="color: white;" class="active" href="home.html">Home</a>
+            <a style="color: #EFC862;" class="s_bus" href="syllabus.html">Syllabus -Integrated Circuts</a>
+            <a  href="ic.html">IC-unit2</a>
+            <a href="ic_unit_3.html">IC-Unit 3</a>
+            <a href="ic_unit_4.html">IC-Unit 4</a>
+        </div>
+    </header>
+
+    <!-- universal block in which side topics and main topics exists -->
+    <section id="universal">
+
+   <!-- toggle button for android devices -->
+        <input type="checkbox" id="openSidebarMenu">
+              <label for="openSidebarMenu" class="sidebarIconToggle">
+                  <div class="spinner top"></div>
+                  <div class="spinner middle"></div>
+                  <div class="spinner bottom"></div>
+             </label> 
+
+        <!-- side topics section    -->
+        <section id="topic-ic">
+
+            <ol class="subject-topics">
+                <div class="items">
+                    <span style="color: white;" class="heading-topic">Syllabus as per AKTU</span>
+                  
+                </div>
+            </ol>
+        </section>
+        <!-- main topics block in which main contain exists   -->
+        <section id="content">
+            <span class="syllabus">SYLLABUS OF INTEGRATED CIRCUITS</span>
+
+            <div id="unit-1" class="sub-content-div">
+                <p><b style="color:#EFC862">Unit-1 :- The 741 IC Op-Amp:</b> General operational amplifier stages (bias
+                    circuit, the input
+                    stage, the second stage, the output stage, short circuit protection circuitry), device
+                    parameters, DC and AC analysis of input stage, second stage and output stage, gain,
+                    frequency response of 741, a simplified model, slew rate, relationship between ft
+                    and slew rate.</p>
+            </div>
+            <br>
+            <div id="unit-2" class="sub-content-div">
+                <p><b style="color: #EFC862;">Unit-2 :- Linear Applications of IC Op-Amps:</b> Op-Amp based V-I and I-V
+                    converters,
+                    instrumentation amplifier, generalized impedance converter, simulation of
+                    inductors, Active analog filters: first and second order low pass, high pass, band
+                    pass and band stop filter, all pass active filters, KHN Filters
+                </p>
+            </div>
+            <br>
+            <div id="unit-3" class="sub-content-div">
+                <p><b style="color: #EFC862;">Unit-3 :- Non-Linear Applications of IC Op-Amps:</b> Basic Log–Anti Log
+                    amplifiers using
+                    diode and BJT, temperature compensated Log-Anti Log amplifiers using diode,
+                    peak detectors, sample and hold circuits, Op-amp as a comparator and zero crossing
+                    detector, astable multivibrator, monostable multivibrator, generation of triangular
+                    waveforms, analog multipliers and their applications.
+                </p>
+            </div>
+            <br>
+            <div id="unit-4" class="sub-content-div">
+                <p><b style="color: #EFC862;">Unit-4 :- Digital Integrated Circuit Design:</b> An overview, CMOS logic
+                    gate circuits basic
+                    structure, CMOS realization of inverters, AND, OR, NAND and NOR gates, Latches
+                    and Flip flops: the latch, CMOS implementation of SR flip-flops, a simpler CMOS
+                    implementation of the clocked SR flip-flop, CMOS implementation of J-K flipflops, D flip- flop
+                    circuits.
+                </p>
+            </div>
+            <br>
+            <div id="unit-5" class="sub-content-div">
+                <p><b style="color: #EFC862;">Unit-5 :- D/A Converters: </b> Binary weighted resistor and R-2R ladder,
+                    A/D converters: dual
+                    slope, successive approximation type and flash converter.</p>
+
+                <p> <b style="color: #EFC862;"> Integrated Circuit Timer: </b>Timer IC 555 pin and functional block
+                    diagram,
+                    Monostable and Astable multivibrator using the 555 IC.
+                    Phase Locked Loop (PLL): Basic principle of PLL, block diagram, working, ExOR gates and multipliers
+                    as phase detectors, applications of PLL.</p>
+            </div>
+            <br>
+            </div>
+
+        </section>
+    </section>
+
+
+    <!-- footer section   -->
+    <footer>
+        <a class="elements" href="#">FAQ</a>&nbsp;&nbsp;
+        <a class="elements" href="#">Contact</a>&nbsp;&nbsp;
+        <a class="elements" href="#">Term of Use</a>&nbsp;&nbsp;
+        <a class="elements" href="#">Privacy Policy</a>&nbsp;&nbsp;
+        <a class="elements" href="#">&copy; COPYRIGHT | Electroozone.com </a>&nbsp;&nbsp;
     </footer>
 
-    <!-- <footer>
-        <a class = "elements" href="#">FAQ</a>&nbsp;&nbsp;
-        <a class = "elements" href="#">Contact</a>&nbsp;&nbsp;
-        <a class = "elements" href="#">Term of Use</a>&nbsp;&nbsp;
-        <a class = "elements" href="#">Privacy Policy</a>&nbsp;&nbsp;
-        <a class = "elements" href="#">&copy; 2021 | SS10 Corporation </a>&nbsp;&nbsp;
-    </footer> -->
 </body>
+
 </html>

@@ -1,0 +1,110 @@
+/*-----------------header------------------------------*/
+
+
+@media screen and (max-width: 767px) 
+{
+    html
+        {
+
+            font-size: 45%;
+        }
+    .header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* background-color: blue; */
+        
+    }
+    #home-page{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .box{
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .image{
+        margin: 20px auto;
+    }
+    #box-2 , #box-4 {
+        flex-direction: column-reverse;
+    }
+    #content-2 , #content-4 {
+        margin: 0px 0;
+    }
+    .button {
+        
+        width: 38%;
+        
+    }
+}
+@media screen and (max-width: 1039px) 
+{
+    html
+        {
+
+            font-size: 45%;
+        }
+     /**----------------------------header section-----------------*/
+    .header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* flex:1; */
+        
+        /* background-color: green; */
+    }
+    
+    .header-right{
+        font-size: 42%;
+        margin: auto;
+        
+    }
+
+  /*-------------------------Section---------------------------------*/
+  #home-page{
+      flex-wrap: wrap;
+      /* border: 2px solid red; */
+      margin: 40px 20px;
+  }
+  .content {
+    /* display: inline; */
+    margin-top: 0px;
+}
+  .content h2 p{
+       font-size:42%;
+  }
+
+  .content img{
+      width: auto;
+      height: auto;
+  }
+  .box {
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    overflow: visible;
+}
+  #box-4 img{
+      width: 40%;
+      margin: 20px auto;
+  }
+  #box-5 img{
+    width: 40%;
+    margin: 20px auto;
+}
+  #box-2 img{
+      width: 40%;
+      margin: 20px auto;
+}
+}
