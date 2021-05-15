@@ -12,3 +12,11 @@ footer a {
     float: left;
     color: white;
 }
+
+@media screen and (max-width:600px)
+{
+    footer a{
+        font-size: 1.3rem;
+        padding: 12px;
+    }
+}

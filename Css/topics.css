@@ -84,8 +84,8 @@ input{
     height: 22px;
     position: absolute;
     z-index: 20;
-    top: 150px;
-    left: 50px;
+    top: 180px;
+    left: 30px;
     cursor: pointer;
 }
 .spinner{
