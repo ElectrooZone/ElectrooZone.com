@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 30%;
+  width: 27%;
   max-height: 1000px;
   border-top : 4px solid white;
   border-right : 4px solid white;
@@ -71,10 +71,7 @@ input{
     transition: transform 1s ease-in-out;
 }
 
-/* #opensidebarMenu:checked ~ #slidebarMenu{
-   
 
-} */
 #openSidebarMenu:checked ~ #topic-ic{
     transform: translateX(0px);
 }
