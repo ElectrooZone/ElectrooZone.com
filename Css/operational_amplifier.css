@@ -1,10 +1,10 @@
 #universal-operational-amplifier{
   display: flex;
   /* flex-wrap: wrap; */
-  border: 5px solid yellowgreen;
+  /* border: 5px solid yellowgreen; */
 }
 .content-operational-amplifier{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   /* flex-wrap: wrap; */
@@ -13,7 +13,7 @@
   margin: 20px 23px;
 }
 .sub-content-div-operational-amplifier{
-  border: 2px solid green;
+  /* border: 2px solid green; */
       color: white;
       margin-left: 20px;
       margin-top: 10px;
@@ -45,17 +45,16 @@
   font-size: 2.3rem;
   margin: 25px auto;
   letter-spacing: 0.2rem;
-  overflow: visible;
   text-decoration: underline; 
 }
 #heading-2{
-  border: 2px solid blueviolet;
+  /* border: 2px solid blueviolet; */
   display: flex;
 }
 .left-heading{
   margin: 20px 20px;
   color: #EFC862;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     font-size: 2.0rem;
     letter-spacing: 0.2rem;
 }
@@ -63,14 +62,14 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border: 2px solid springgreen;
+  /* border: 2px solid springgreen; */
 }
 #block-diagram img{
   max-width: 100%;
 }
-#block-diagram-working{
+/* #block-diagram-working{
   border: 2px solid steelblue ;
-}
+} */
  
 #block-diagram-working ul li{
   line-height: 40px;
@@ -78,12 +77,12 @@
 #next-previous-button {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
 }
 .button-2{
    display: flex;
    flex-wrap: wrap;
-  border: 2px solid turquoise;
+  /* border: 2px solid turquoise; */
   margin: auto;
 }
 .button-2 a{

@@ -52,14 +52,14 @@
   }
   @media screen and (max-width:500px) {
     #content{
-      margin: 20px 6px 0px -10px;
+      margin: 20px 6px 0px -1px;
     }
     .syllabus{
       margin: auto;
       text-align: center;
     }
     .sub-content-div{
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       margin-left: 0px;
   }
     
