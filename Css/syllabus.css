@@ -1,9 +1,9 @@
 .universal{
   display: flex;
-  border: 5px solid yellowgreen;
+  /* border: 5px solid yellowgreen */
 }
 #content{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -14,7 +14,7 @@
   /* border: 2px solid red; */
 }
 .sub-content-div{
-  border: 2px solid green;
+  /* border: 2px solid green; */
       color: white;
       margin-left: 20px;
       margin-top: 10px;
@@ -50,6 +50,7 @@
     } */
    
   }
+  
   @media screen and (max-width:500px) {
     #content{
       margin: 20px 6px 0px -1px;
